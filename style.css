@@ -18,7 +18,6 @@ body {
     color: #333;
 }
 
-/* NAVBAR */
 nav {
     width: 100%;
     height: 10vh;
@@ -80,7 +79,6 @@ nav {
     transform: scale(1.05);
 }
 
-/* GENERAL SECTION STYLING */
 section {
     min-height: 85vh;
     padding: 70px 10%;
@@ -108,7 +106,6 @@ section ul {
     padding-left: 20px;
 }
 
-/* SECTION HOME: FOTO BULAT, SHADOW GLOWING, ANIMASI MELAYANG */
 #home {
     min-height: 90vh;
 }
@@ -117,21 +114,20 @@ section ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 45px; /* Jarak antara foto dan teks sambutan pas */
+    gap: 45px; 
     flex-wrap: wrap;
 }
 
 .image-box {
     width: 250px;
     height: 250px;
-    border-radius: 50%; /* Membuat foto bulat sempurna */
+    border-radius: 50%; 
     overflow: hidden;
     background: transparent;
     border: 5px solid white;
-    /* Efek shadow ganda bertingkat yang cantik & glowing */
     box-shadow: 0 12px 25px rgba(214, 70, 94, 0.25), 
                 0 0 35px rgba(241, 70, 99, 0.3);
-    animation: float 4s ease-in-out infinite; /* Animasi melayang naik turun */
+    animation: float 4s ease-in-out infinite;
 }
 
 .image-box img {
@@ -140,7 +136,6 @@ section ul {
     object-fit: cover;
 }
 
-/* Keyframe untuk Efek Melayang */
 @keyframes float {
     0%, 100% {
         transform: translateY(0px);
@@ -215,7 +210,6 @@ section ul {
     transform: translateY(-3px);
 }
 
-/* SECTION ABOUT & SKILL TAGS */
 .skills-list {
     margin-top: 20px;
 }
@@ -245,10 +239,9 @@ section ul {
     gap: 8px;
 }
 
-/* SECTION ACHIEVEMENT (FORMAT GRID 2-2-2) */
 .card-grid-2x2 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 Kolom Sejajar */
+    grid-template-columns: repeat(2, 1fr);
     gap: 25px;
     margin-top: 20px;
 }
@@ -307,7 +300,6 @@ section ul {
     background: #cc0000;
 }
 
-/* SECTION CONTACT */
 .contact-box {
     display: flex;
     gap: 20px;
