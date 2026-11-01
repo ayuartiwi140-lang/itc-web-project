@@ -136,7 +136,7 @@ section ul {
     object-fit: cover;
 }
 
-@keyframes float {
+@keyframes float { *Bantuan AI
     0%, 100% {
         transform: translateY(0px);
     }
